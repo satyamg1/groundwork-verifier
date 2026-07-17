@@ -1,0 +1,123 @@
+{
+  "meta_analysis": {
+    "overall_risk_score": "medium",
+    "summary": "The draft is largely supported by the provided exhibits, particularly regarding the stock decline and analyst reactions. However, there is a critical misgrounded claim regarding confounding news on the event day.",
+    "key_issues": [
+      "Claim c4 states no confounding news was released, but Ex. 16 notes a major product recall.",
+      "Claim c6 has a transposition error in the damages figure ($412m vs $421m).",
+      "Claim c10 regarding short interest is completely unsupported by any provided source."
+    ]
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "claim_text": "Meridian's stock fell 18.4% on March 12, 2024, from $64.20 to $52.39.",
+      "claim_type": "numeric",
+      "cited_source": "Ex. 14",
+      "best_source": "Ex. 14",
+      "status": "supported",
+      "evidence_quote": "The company's stock price subsequently fell from $64.20 to $52.39, representing an 18.4% decline.",
+      "explanation": "The cited source explicitly contains the exact figures for the stock price decline.",
+      "confidence": "high"
+    },
+    {
+      "id": "c2",
+      "claim_text": "The decline was statistically significant at the 1% level per the event study.",
+      "claim_type": "factual",
+      "cited_source": "Ex. 14",
+      "best_source": "Ex. 14",
+      "status": "supported",
+      "evidence_quote": "Our event study confirms that this decline was statistically significant at the 1% level",
+      "explanation": "The event study memo confirms the statistical significance at the 1% level.",
+      "confidence": "high"
+    },
+    {
+      "id": "c3",
+      "claim_text": "Trading volume on March 12 was 6.2× the prior 90-day average.",
+      "claim_type": "numeric",
+      "cited_source": "Ex. 15",
+      "best_source": "Ex. 15",
+      "status": "supported",
+      "evidence_quote": "The trading volume on March 12 was exactly 6.2× the prior 90-day average",
+      "explanation": "The trading volume table confirms the 6.2x ratio.",
+      "confidence": "high"
+    },
+    {
+      "id": "c4",
+      "claim_text": "No confounding company-specific news was released that day.",
+      "claim_type": "factual",
+      "cited_source": "Ex. 16",
+      "best_source": "Ex. 16",
+      "status": "misgrounded",
+      "evidence_quote": "Meridian also issued a press release at 10:30 AM announcing a major product recall for their flagship Z-series microchips",
+      "explanation": "The source contradicts the claim by noting a major product recall was announced the same day.",
+      "confidence": "high"
+    },
+    {
+      "id": "c5",
+      "claim_text": "Analyst reaction attributed the decline to the restatement announcement.",
+      "claim_type": "factual",
+      "cited_source": "Ex. 17",
+      "best_source": "Ex. 17",
+      "status": "supported",
+      "evidence_quote": "Analyst consensus firmly attributes the day's decline directly to the corrective disclosure.",
+      "explanation": "The analyst report excerpts confirm the market reaction was attributed to the restatement.",
+      "confidence": "high"
+    },
+    {
+      "id": "c6",
+      "claim_text": "Estimated aggregate damages are $412 million.",
+      "claim_type": "numeric",
+      "cited_source": "Ex. 18",
+      "best_source": "Ex. 18",
+      "status": "numeric_mismatch",
+      "evidence_quote": "yields estimated aggregate damages of $421 million.",
+      "explanation": "The source states damages are $421 million, not $412 million (transposition error).",
+      "confidence": "high"
+    },
+    {
+      "id": "c7",
+      "claim_text": "The S&P Semiconductor index declined 0.3% the same day.",
+      "claim_type": "numeric",
+      "cited_source": "Ex. 14",
+      "best_source": "Ex. 14",
+      "status": "supported",
+      "evidence_quote": "the S&P Semiconductor index only declined 0.3% on the same trading day.",
+      "explanation": "The event study memo confirms the 0.3% index decline.",
+      "confidence": "high"
+    },
+    {
+      "id": "c8",
+      "claim_text": "Meridian's CFO had certified the prior financials under SOX §302.",
+      "claim_type": "factual",
+      "cited_source": "Ex. 19",
+      "best_source": "Ex. 19",
+      "status": "supported",
+      "evidence_quote": "The company's prior financial statements were certified by the Chief Financial Officer under SOX §302",
+      "explanation": "The SEC filing confirms the CFO certified the financials.",
+      "confidence": "high"
+    },
+    {
+      "id": "c9",
+      "claim_text": "Institutional investors held 71% of the float during the class period.",
+      "claim_type": "numeric",
+      "cited_source": "Ex. 20",
+      "best_source": "Ex. 19",
+      "status": "misgrounded",
+      "evidence_quote": "corporate records indicate that institutional investors held 71% of the float during the class period.",
+      "explanation": "The cited source (Ex. 20) does not contain this figure, but it is supported by Ex. 19.",
+      "confidence": "high"
+    },
+    {
+      "id": "c10",
+      "claim_text": "Short interest was at a 52-week high in the week before disclosure.",
+      "claim_type": "factual",
+      "cited_source": "Ex. 16",
+      "best_source": null,
+      "status": "unsupported",
+      "evidence_quote": null,
+      "explanation": "None of the provided sources mention short interest being at a 52-week high.",
+      "confidence": "high"
+    }
+  ]
+}

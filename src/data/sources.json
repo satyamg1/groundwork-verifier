@@ -1,0 +1,42 @@
+[
+  {
+    "id": "Ex. 14",
+    "title": "Event Study Memo",
+    "content": "On March 12, 2024, Meridian Semiconductor Corp. released its corrective disclosure. The company's stock price subsequently fell from $64.20 to $52.39, representing an 18.4% decline. Our event study confirms that this decline was statistically significant at the 1% level, controlling for market and industry factors. Notably, the S&P Semiconductor index only declined 0.3% on the same trading day."
+  },
+  {
+    "id": "Ex. 15",
+    "title": "Trading Volume Table",
+    "content": "Date: March 12, 2024. Volume Analysis: 45,200,000 shares traded. Prior 90-day average trading volume: 7,290,322 shares. Ratio: The trading volume on March 12 was exactly 6.2× the prior 90-day average, indicating unusually high market activity and investor reaction."
+  },
+  {
+    "id": "Ex. 16",
+    "title": "News Sweep Memo",
+    "content": "A comprehensive review of news releases on March 12, 2024, shows significant media coverage of the restatement announcement. In addition to the financial restatements, Meridian also issued a press release at 10:30 AM announcing a major product recall for their flagship Z-series microchips due to overheating issues. No articles mentioned short interest metrics for the company."
+  },
+  {
+    "id": "Ex. 17",
+    "title": "Analyst Report Excerpts",
+    "content": "Excerpts from major equity research desks on March 12: 'The stock's sharp drop today is entirely driven by the shock restatement announcement' (Bank A). 'Investors were caught off guard by the restatement, which explains the massive sell-off we're seeing' (Broker B). Analyst consensus firmly attributes the day's decline directly to the corrective disclosure."
+  },
+  {
+    "id": "Ex. 18",
+    "title": "Damages Model Output",
+    "content": "Aggregate Damages Calculation: Based on the event study parameters, the inflation removed upon the corrective disclosure on March 12, 2024, multiplied by the affected shares outstanding during the class period, yields estimated aggregate damages of $421 million."
+  },
+  {
+    "id": "Ex. 19",
+    "title": "SEC Filing Excerpt (Form 10-K/A)",
+    "content": "The company's prior financial statements were certified by the Chief Financial Officer under SOX §302, attesting to their accuracy at the time of filing. Additionally, corporate records indicate that institutional investors held 71% of the float during the class period."
+  },
+  {
+    "id": "Ex. 20",
+    "title": "Ownership Analysis",
+    "content": "Analysis of Meridian's shareholder base during the class period shows a diverse mix of retail and institutional holders. The top 10 mutual funds accounted for approximately 45% of the total outstanding shares. (No aggregate institutional float percentage is provided in this specific document)."
+  },
+  {
+    "id": "Ex. 21",
+    "title": "Deposition Excerpt",
+    "content": "Q: Did you have any concerns about the accounting practices before the restatement? A: I was aware of some aggressive revenue recognition, but I thought it was within the bounds of GAAP at the time. I never expected a full restatement."
+  }
+]
